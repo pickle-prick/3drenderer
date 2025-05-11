@@ -37,8 +37,8 @@ mat4_t mat4_make_translation(float tx, float ty, float tz) {
 mat4_t mat4_make_rotation_x(float r) {
         // | 1  0   0  0 |
         // | 0  c  -s  0 |
-        // | 0  0   0  1 |
         // | 0  s   c  0 |
+        // | 0  0   0  1 |
         float c = cosf(r);
         float s = sinf(r);
 

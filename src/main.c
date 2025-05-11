@@ -513,7 +513,7 @@ int main(void) {
         is_running = initialize_window();
         setup();
 
-        while (is_running) {
+        while(is_running) {
                 process_input();
                 update();
                 render();
